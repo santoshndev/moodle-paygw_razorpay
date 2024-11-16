@@ -26,6 +26,7 @@
 namespace paygw_razorpay\privacy;
 
 use core_payment\privacy\paygw_provider;
+use core_privacy\local\metadata\collection;
 use core_privacy\local\request\writer;
 
 /**
@@ -36,16 +37,28 @@ use core_privacy\local\request\writer;
  * @copyright  2024 Santosh N.
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class provider implements \core_privacy\local\metadata\null_provider, paygw_provider {
-
+class provider implements
+    \core_privacy\local\metadata\provider,
+    \core_privacy\local\request\data_provider,
+    paygw_provider {
     /**
-     * Get the language string identifier with the component's language
-     * file to explain why this plugin stores no data.
+     * Returns metadata about this plugin.
      *
-     * @return  string
+     * @param collection $collection The initialised collection to add items to.
+     * @return collection A listing of user data shared from this plugin.
      */
-    public static function get_reason(): string {
-        return 'privacy:metadata';
+    public static function get_metadata(collection $collection): collection {
+        // Data shared with Razorpay.
+        $collection->add_external_location_link(
+            'razorpay_com',
+            [
+                'name' => 'privacy:metadata:paygw_razorpay_com:name',
+                'email' => 'privacy:metadata:paygw_razorpay_com:email',
+                'contact' => 'privacy:metadata:paygw_razorpay_com:phone1',
+            ],
+            'privacy:metadata:paygw_razorpay_com'
+        );
+        return $collection;
     }
 
     /**
