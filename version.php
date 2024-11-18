@@ -28,4 +28,4 @@ $plugin->version   = 2024111301;        // The current plugin version (Date: YYY
 $plugin->requires  = 2023100400;        // Requires this Moodle version.
 $plugin->component = 'paygw_razorpay';       // Full name of the plugin (used for diagnostics).
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '4.1.0';
+$plugin->release   = '4.1.1';
