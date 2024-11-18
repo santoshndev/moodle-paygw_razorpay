@@ -23,9 +23,9 @@
 
 import * as Repository from './repository';
 import Templates from 'core/templates';
-import Modal from 'core/modal';
+import ModalFactory from 'core/modal_factory';
 import ModalEvents from 'core/modal_events';
-import {getString} from 'core/str';
+import {get_string as getString} from 'core/str';
 
 
 /**
@@ -33,12 +33,13 @@ import {getString} from 'core/str';
  *
  * @returns {Promise<Modal>}
  */
-const showModalWithPlaceholder = async() => await Modal.create({
-    body: await Templates.render('paygw_razorpay/razorpay_button_placeholder', {}),
-    show: true,
-    removeOnClose: true,
-});
-
+const showModalWithPlaceholder = async() => {
+    const modal = await ModalFactory.create({
+        body: await Templates.render('paygw_razorpay/razorpay_button_placeholder', {})
+    });
+    modal.show();
+    return modal;
+};
 /**
  * Process the payment.
  *
