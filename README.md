@@ -15,10 +15,11 @@ It allows businesses to accept, process, and disburse payments using various mod
 
 ## How to Use
 1. Register for [Razorpay](https://razorpay.com)
-2. Grab your Razorpay API Client ID and Secret keys
-3. Configure the Razorpay payment account in Moodle with those keys and your payment method
-4. Add 'Enrolment on payment' to the Moodle courses that you want
-5. Configure the enrolment method with the currency INR (Indian Rupees) only
+2. Go to Accounts and Settings page (https://dashboard.razorpay.com/app/account-settings) and switch to Test mode/Live mode
+3. Click on Api key menu and generate your Razorpay API Client ID and Secret keys
+4. Configure the Razorpay payment account in Moodle with those keys and your payment method
+5. Add 'Enrolment on payment' to the Moodle courses that you want
+6. Configure the enrolment method with the currency INR (Indian Rupees) only
 
 ## Demo Credentials
 You can use following demo(sandbox) credentials to test this plugin with your moodle setup.
