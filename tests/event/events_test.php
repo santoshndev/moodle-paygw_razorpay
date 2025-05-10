@@ -18,7 +18,7 @@
  * Unit Tests for Event
  *
  * @package    paygw_razorpay
- * @copyright  2024 Santosh N.(santosh.nag2217@gmail.com)
+ * @copyright  2025 Santosh N.(santosh.nag2217@gmail.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 namespace paygw_razorpay\event;
@@ -27,7 +27,7 @@ namespace paygw_razorpay\event;
  * Unit Test class for Event
  *
  * @package    paygw_razorpay
- * @copyright  2024 Santosh N.(santosh.nag2217@gmail.com)
+ * @copyright  2025 Santosh N.(santosh.nag2217@gmail.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @coversDefaultClass \paygw_razorpay\event\payment_created
  */

@@ -18,7 +18,7 @@
  * Strings for component 'paygw_razorpay', language 'hi'
  *
  * @package    paygw_razorpay
- * @copyright  2024 Santosh N.
+ * @copyright  2025 Santosh N.
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 $string['amountmismatch'] = 'आपने भुगतान करने का प्रयास किया राशि आवश्यक शुल्क से मेल नहीं खाती। आपका खाता डेबिट नहीं किया गया है।';

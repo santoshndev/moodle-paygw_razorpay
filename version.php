@@ -18,14 +18,14 @@
  * Version information
  *
  * @package    paygw_razorpay
- * @copyright  2024 Santosh N.(santosh.nag2217@gmail.com)
+ * @copyright  2025 Santosh N.(santosh.nag2217@gmail.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2024111301;        // The current plugin version (Date: YYYYMMDDXX).
+$plugin->version   = 2025042100;        // The current plugin version (Date: YYYYMMDDXX).
 $plugin->requires  = 2023100400;        // Requires this Moodle version.
 $plugin->component = 'paygw_razorpay';       // Full name of the plugin (used for diagnostics).
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '4.1.1';
+$plugin->release   = '4.1.2';

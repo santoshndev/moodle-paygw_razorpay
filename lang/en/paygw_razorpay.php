@@ -18,7 +18,7 @@
  * Strings for component 'paygw_razorpay', language 'en'
  *
  * @package    paygw_razorpay
- * @copyright  2024 Santosh N.
+ * @copyright  2025 Santosh N.
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 $string['amountmismatch'] = 'The amount you attempted to pay does not match the required fee. Your account has not been debited.';
@@ -34,7 +34,7 @@ $string['environment_help'] = 'You can set this to Sandbox if you are using sand
 $string['eventordercreated'] = 'Razorpay Order Created';
 $string['eventpaymentdone'] = 'Online Payment Successful';
 $string['gatewaydescription'] = 'Choose this option if you want to pay the fee in online mode';
-$string['gatewayname'] = 'razorpay';
+$string['gatewayname'] = 'Razorpay';
 $string['internalerror'] = 'An internal error has occurred. Please contact us.';
 $string['live'] = 'Live';
 $string['paymentnotcleared'] = 'payment not cleared by razorpay.';
