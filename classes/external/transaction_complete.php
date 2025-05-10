@@ -18,7 +18,7 @@
  * This class contains a list of webservice functions related to the razorpay payment gateway.
  *
  * @package    paygw_razorpay
- * @copyright  2024 Santosh N.
+ * @copyright  2025 Santosh N.
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -38,7 +38,7 @@ use paygw_razorpay\razorpay_helper;
  * webservice for transaction complete operation
  *
  * @package    paygw_razorpay
- * @copyright  2024 Santosh N.
+ * @copyright  2025 Santosh N.
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class transaction_complete extends external_api {

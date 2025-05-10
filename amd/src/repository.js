@@ -17,7 +17,7 @@
  * razorpay repository module to encapsulate all of the AJAX requests that can be sent for razorpay.
  *
  * @module     paygw_razorpay/repository
- * @copyright  2024 Santosh N.
+ * @copyright  2025 Santosh N.
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

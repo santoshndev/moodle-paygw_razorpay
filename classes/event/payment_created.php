@@ -18,7 +18,7 @@
  * trigger event upon successful payment
  *
  * @package     paygw_razorpay
- * @copyright   2024 Santosh N.
+ * @copyright   2025 Santosh N.
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 namespace paygw_razorpay\event;
@@ -27,7 +27,7 @@ namespace paygw_razorpay\event;
  * Event class
  *
  * @package     paygw_razorpay
- * @copyright   2024 Santosh N.
+ * @copyright   2025 Santosh N.
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class payment_created extends \core\event\base {

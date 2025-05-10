@@ -18,7 +18,7 @@
  * External functions and service definitions for the razorpay payment gateway plugin.
  *
  * @package    paygw_razorpay
- * @copyright  2024 Santosh N.
+ * @copyright  2025 Santosh N.
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

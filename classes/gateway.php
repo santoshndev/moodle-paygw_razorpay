@@ -18,7 +18,7 @@
  * Contains class for razorpay payment gateway.
  *
  * @package    paygw_razorpay
- * @copyright  2024 Santosh N.
+ * @copyright  2025 Santosh N.
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -28,7 +28,7 @@ namespace paygw_razorpay;
  * Contains class for razorpay payment gateway.
  *
  * @package    paygw_razorpay
- * @copyright  2024 Santosh N.
+ * @copyright  2025 Santosh N.
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class gateway extends \core_payment\gateway {

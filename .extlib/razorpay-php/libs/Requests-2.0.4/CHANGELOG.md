@@ -5,7 +5,7 @@ Changelog
 -----
 
 ### Overview of changes
-- Update bundled certificates as of 2024-07-19. [#763]
+- Update bundled certificates as of 2022-07-19. [#763]
 
 [#763]: https://github.com/WordPress/Requests/pull/763
 
@@ -13,7 +13,7 @@ Changelog
 -----
 
 ### Overview of changes
-- Update bundled certificates as of 2024-04-26. [#731]
+- Update bundled certificates as of 2022-04-26. [#731]
 
 [#731]: https://github.com/WordPress/Requests/pull/731
 
@@ -21,7 +21,7 @@ Changelog
 -----
 
 ### Overview of changes
-- Update bundled certificates as of 2024-03-18. [#697]
+- Update bundled certificates as of 2022-03-18. [#697]
 
 [#697]: https://github.com/WordPress/Requests/pull/697
 
@@ -29,7 +29,7 @@ Changelog
 -----
 
 ### Overview of changes
-- Update bundled certificates as of 2024-02-01. [#670]
+- Update bundled certificates as of 2022-02-01. [#670]
 - Bug fix: Hook priority should be respected. [#452], [#647]
 - Docs: the Hook documentation has been updated to reflect the current available hooks. [#646]
 - General housekeeping. [#635], [#649], [#650], [#653], [#655], [#658], [#660], [#661], [#662], [#669], [#671], [#672], [#674]
